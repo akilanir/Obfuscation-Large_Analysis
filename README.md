@@ -55,6 +55,7 @@ pip install torch torchvision torchaudio
 pip install joblib networkx matplotlib tqdm pandas xlsxwriter openpyxl
 pip install scikit-learn
 pip install seaborn scipy
+pip install torch-geometric
 ```
 
 ---
