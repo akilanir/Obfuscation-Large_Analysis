@@ -381,6 +381,10 @@ if __name__ == "__main__":
         for row in reader:
             apk_number += 1
             ####### Read The Row and create the APK File Path ###########
+            app_id = row[0]
+            last_updated = row[1]
+            app_genre = row[2]
+            folder_id = 0
 
             # Create Server Path
             server_path = "Create your APK file path here......."
